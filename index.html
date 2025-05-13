@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navdiv">
+          <div class="logo"><a href="#">Travel Agency</a></div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <button><a href="#">Log In</a></button>
+            <button><a href="#">Sign Up</a></button>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <video autoplay loop muted plays-inline class="background">
+          <source src="videoplayback.mp4" type="video/mp4" />
+        </video>
+
+        <form action="">
+          <h2>Book You Holidays</h2>
+          <div class="nam">
+            <input type="text" placeholder="Name" style="height: 30px; width: 250px;" required>
+          </div>
+          <div class="email">
+            <input type="text" placeholder="Email" style="height: 30px; width: 250px;" required>
+          </div>
+          <div class="number"> 
+            <input type="text" placeholder="Phone Number" style="height: 30px; width: 250px;" required>
+          </div>
+          <div>
+            <select name="select" id="select" style="width: 200px; height: 40px;">
+              <option value="option">Choose Your Destination</option>
+              <option value="option">Asia</option>
+              <option value="option">Aftica</option>
+              <option value="option">Australia</option>
+              <option value="option">Antertica</option>
+              <option value="option">Europe</option>
+              <option value="option">North America</option>
+              <option value="option">South America</option>
+              
+            </select>
+          </div>
+        
+      </div>
+
+      <div class="buttons" style="text-align: center;">
+        <button type="reset" style="color: rgb(0, 0, 0); background-color: wheat; width: 70px;">Clear</button>
+        <button type="submit" style="color: rgb(0, 0, 0); background-color: wheat; width: 70px;">Submit</button>
+      </div>
+      </form>
+    </main>
+  </body>
+</html>
